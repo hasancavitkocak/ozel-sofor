@@ -140,6 +140,12 @@ function App() {
           <p className="section-subtitle">Profesyonel ve güvenilir özel şoförlük</p>
           
           <div className="services-grid">
+            <div className="service-card highlight-card">
+              <div className="service-icon">🍷</div>
+              <h3>Alkollü Araç Kullanmayın!</h3>
+              <p>Eğlenceli bir gece geçirdiniz mi? Aracınızı ve sizi güvenle evinize ulaştırıyorum. Siz keyfinize bakın!</p>
+            </div>
+
             <div className="service-card">
               <div className="service-icon">✈️</div>
               <h3>Havalimanı Transfer</h3>

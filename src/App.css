@@ -2128,3 +2128,27 @@ p::selection {
 a, button, input, select, textarea {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+/* Highlight Card for Alcohol Warning */
+.highlight-card {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, white 100%);
+  border: 2px solid var(--accent);
+  position: relative;
+}
+
+
+
+.highlight-card:hover {
+  border-color: #f4d03f;
+  box-shadow: 0 20px 50px rgba(212, 175, 55, 0.3);
+}
+
+.highlight-card .service-icon {
+  font-size: 4.5rem;
+}
+
+.highlight-card h3 {
+  color: var(--accent);
+  font-size: 1.6rem;
+}
